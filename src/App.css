@@ -2,37 +2,144 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+html {
   background-color: #282c34;
-  min-height: 100vh;
+}
+
+.calculator {
+  height: 50px;
+  margin-top: 100px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black
+}
+
+.calculator-2 {
+  margin-top: -3px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(124, 124, 124);
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.clear-button {
+  height: 50px;
+  width: 90px;
+  flex: 1;
+  background-color: lightgray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.plus-neg {
+  height: 50px;
+  width: 90px;
+  flex: 1;
+  background-color: lightgray;
+}
+
+.percentage {
+  height: 50px;
+  width: 90px;
+  flex: 1;
+  background-color: lightgray;
+}
+
+.division {
+  height: 50px;
+  width: 90px;
+  flex: 1;
+}
+
+.number {
+  font-size: 40px;
+  text-align: right;
+  margin-right: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.numbers {
+  height: 50px;
+  width: 90px;
+  flex: 1;
+  background-color: rgb(128, 127, 127);
+}
+
+.right-side {
+  height: 50px;
+  width: 90px;
+  flex: 1;
+  background-color: orange;
+}
+
+.calculator-3 {
+  margin-top: -3px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(124, 124, 124);
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator-4 {
+  margin-top: -3px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(124, 124, 124);
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator-5 {
+  margin-top: -3px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(124, 124, 124);
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator-6 {
+  margin-top: -3px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(124, 124, 124);
+  display: flex;
+  justify-content: space-between;
+}
+
+.zero {
+  height: 50px;
+  width: 90px;
+  flex: 2.23;
+  background-color: rgb(128, 127, 127);
+}
+
+.decimal {
+  height: 50px;
+  width: 90px;
+  flex: 1;
+}
+
+.equal {
+  height: 50px;
+  width: 90px;
+  flex: 1;
+}
+
+.symbol {
+  font-size: 25px;
+}
+
+.decimals {
+  height: 50px;
+  width: 90px;
+  flex: 1;
+  background-color: rgb(128, 127, 127);
+  font-size: 25px;
 }
